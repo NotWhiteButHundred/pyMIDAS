@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pymidas"
+version = "0.1.0"
+description = ""
+authors = ["Satoshi <33173348+NotWhiteButHundred@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+numpy = "^2.2.4"
+tqdm = "^4.67.1"
+pandas = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
