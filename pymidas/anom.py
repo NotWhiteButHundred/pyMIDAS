@@ -3,8 +3,8 @@ import math
 import numpy as np
 from tqdm import tqdm
 
-from midas.edgehash import Edgehash
-from midas.nodehash import Nodehash
+from pymidas.edgehash import Edgehash
+from pymidas.nodehash import Nodehash
 
 __all__ = [
     'midas',

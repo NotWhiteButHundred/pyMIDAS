@@ -6,7 +6,7 @@ def auc():
     data = pd.read_csv("darpa_labels.txt", names=["label"])
     # data = data.head()
 
-    methods = ["midas"]
+    methods = ["pymidas"]
     for i in range(len(methods)):
         scores = pd.read_csv("scores.txt", header=None, squeeze=True)
         fpr, tpr, _ = metrics.roc_curve(data.label, scores)

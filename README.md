@@ -49,7 +49,7 @@ Faloutsos*. AAAI 2020.
 Inside the pyMIDAS directory
 
 ```python
-from midas import midas
+from pymidas import midas
 import pandas as pd
 
 # Load dataset
